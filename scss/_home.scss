@@ -1,0 +1,31 @@
+.home{
+    height: 100%;
+    padding-top: 40vh;
+    text-align: center;
+    background-image: 
+    linear-gradient(
+        to right,
+        rgba($primary-color, 0.9),
+        rgba($primary-color, 0.3)
+    ),
+    url(https://images.unsplash.com/photo-1556642389-0cd5fd882f5a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHBob3RvZ3JhcGhlcnxlbnwwfHwwfHw%3D&w=1000&q=80);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: top;
+/*REMEMBER & refers to the parent name */
+    &__name{
+        font-size: 5rem;
+        padding-bottom: 1rem;
+        margin-top: 1rem;
+        border-bottom: 2px solid set-text-color($primary-color);
+        &--last{
+            color: $secondary-color;
+            font-weight: 700;
+        }
+    }
+    footer{
+        position: relative;
+        bottom:-12rem;
+    
+    }
+}

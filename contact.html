@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>Sass website example (contact)</title>
+  <link rel="stylesheet" href="./scss/main.css">
+</head>
+
+<body>
+  <header>
+    <div class="menu-btn">
+      <span class="menu-btn__burger"></span>
+    </div>
+    <nav class="nav">
+      <ul class="menu-nav">
+        <li class="menu-nav__item">
+          <a href="index.html" class="menu-nav__link">
+            Home
+          </a>
+        </li>
+        <li class="menu-nav__item">
+          <a href="about.html" class="menu-nav__link">
+            About me
+          </a>
+        </li>
+        <li class="menu-nav__item">
+          <a href="projects.html" class="menu-nav__link">
+            Projects
+          </a>
+        </li>
+        <li class="menu-nav__item active">
+          <a href="contact.html" class="menu-nav__link">
+            Contact
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="contact">
+       <h2>Contact me</h2>
+       <div class="contact__list">
+        <div class="contact__email">
+            <i class="fas fa-envelope">&nbsp;Email</i>
+            <div class="text-secondary">email@email.com</div>
+        </div>
+        <div class="contact__phone">
+            <i class="fas fa-mobile-alt">&nbsp;Phone</i>
+            <div class="text-secondary">07954311278</div>
+        </div>
+        <div class="contact__address">
+            <i class="fa-solid fa-location-dot">Address</i>
+            <div class="text-secondary">123 First St. London, UK</div>
+        </div>
+       </div>
+
+
+      <div class="container p-4 pb-0 social-icons">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+              class="fab fa-facebook-f"></i></a>
+
+          <!-- Twitter -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+
+          <!-- Linkedin -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+              class="fa-brands fa-instagram"></i></a>
+
+          <!-- Github -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+              class="fa-brands fa-pinterest"></i></a>
+        </section>
+      </div>
+          <footer>&copy;2022 Copyright: miycool.com</footer>
+    </section>
+
+  </main>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

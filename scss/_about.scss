@@ -1,0 +1,55 @@
+.about{
+    padding-bottom: 2rem;
+    &__bio-image{
+        height: 30vh;
+        width:100%;
+        background-image: 
+        linear-gradient(
+            to right,
+            rgba($primary-color, 0.9),
+            rgba($primary-color, 0.3)
+        ),
+        url(https://images.unsplash.com/photo-1556642389-0cd5fd882f5a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHBob3RvZ3JhcGhlcnxlbnwwfHwwfHw%3D&w=1000&q=80);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: top;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        p{
+            margin-bottom: 2rem;
+        }
+    }
+
+    &__bio{
+        width:80%;
+        text-align: center;
+
+        .text-secondary{
+            padding-bottom: 1rem;
+        }
+    }
+
+    .jobs{
+        width:60vw;
+        margin: 2rem auto 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 2rem;
+
+        &__job{
+            background-color: lighten($primary-color, $amount: 10%);
+            padding: 0.5rem;
+            border-bottom: 5px solid $secondary-color;
+
+            h2, h3{
+                margin: 0.5rem 0;
+            }
+        }
+    }
+}
+
+.social-icons{
+    text-align: center;
+}

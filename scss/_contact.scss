@@ -1,0 +1,34 @@
+.contact{
+    height: 100%;
+    padding-top: 40vh;
+    text-align: center;
+    background-image: 
+    linear-gradient(
+        to right,
+        rgba($primary-color, 0.9),
+        rgba($primary-color, 0.3)
+    ),
+    url(https://images.unsplash.com/photo-1556642389-0cd5fd882f5a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHBob3RvZ3JhcGhlcnxlbnwwfHwwfHw%3D&w=1000&q=80);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: top;
+/*REMEMBER & refers to the parent name */
+
+h2{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+&__list{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+    font-size: 1.2rem;
+}
+footer{
+    position: relative;
+    bottom:-5rem;
+
+}
+
+}

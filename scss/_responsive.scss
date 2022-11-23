@@ -1,0 +1,50 @@
+@include media-md{
+    .menu-btn{
+        visibility: hidden;
+    }
+    .nav{
+        visibility: visible;
+        .menu-nav{
+            display: block;
+            transform: translateY(0);
+            height: 100%;
+            background-color: transparent;
+            text-align: center;
+
+            &__item{
+                display: inline;
+                padding-right: 1.5rem;
+            }
+
+           &__link{
+            font-size: 1.5rem;
+           }
+        }
+    }
+
+    .about__bio{
+        font-size: 1.5rem;
+    }
+
+     .about__bio-image{
+        height:35vh;
+    }
+    .projects__bio-image{
+        height: 20vh;
+    }
+    .projects{
+       &__items{
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 2rem;
+       }
+    }
+}
+@include media-lg{
+    .about{
+        .jobs{
+                grid-template-columns: repeat(2,1fr);
+                column-gap: 2rem;
+        }
+    }
+  
+}
