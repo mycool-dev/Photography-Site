@@ -171,12 +171,11 @@
   margin-bottom: 2rem;
 }
 .about__bio {
-  margin-top: 2rem;
   width: 80%;
   text-align: center;
 }
 .about__bio .text-secondary {
-  padding-bottom: 1rem;
+  padding-bottom: -1rem;
 }
 .about .jobs {
   width: 60vw;
