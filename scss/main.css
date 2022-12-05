@@ -26,7 +26,7 @@
 }
 .home footer {
   position: relative;
-  bottom: -12rem;
+  bottom: -3rem;
 }
 
 .menu-btn {
@@ -201,7 +201,7 @@
   padding-bottom: 2rem;
 }
 .projects__bio-image {
-  height: 20vh;
+  height: 25vh;
   width: 100%;
   background-image: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url(https://images.unsplash.com/photo-1556642389-0cd5fd882f5a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHBob3RvZ3JhcGhlcnxlbnwwfHwwfHw%3D&w=1000&q=80);
   background-size: cover;
@@ -275,7 +275,7 @@
 
 .contact {
   height: 100%;
-  padding-top: 40vh;
+  padding-top: 30vh;
   text-align: center;
   background-image: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url(https://images.unsplash.com/photo-1556642389-0cd5fd882f5a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHBob3RvZ3JhcGhlcnxlbnwwfHwwfHw%3D&w=1000&q=80);
   background-size: cover;
@@ -295,7 +295,7 @@
 }
 .contact footer {
   position: relative;
-  bottom: -5rem;
+  bottom: 0rem;
 }
 
 @media screen and (min-width: 768px) {
